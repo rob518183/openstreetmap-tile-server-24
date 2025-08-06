@@ -28,6 +28,7 @@ RUN cd ~ \
 && rm -rf .git
 
 ###########################################################################################################
+#Tools for OSM regional extract support, so we're not updating the whole planet every time
 
 FROM compiler-common AS compiler-helper-script
 RUN mkdir -p /home/renderer/src \
